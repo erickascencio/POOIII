@@ -1,0 +1,19 @@
+{
+  "name": "introts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickascencio/POOIII.git"
+  },
+  "author": "erick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickascencio/POOIII/issues"
+  },
+  "homepage": "https://github.com/erickascencio/POOIII#readme"
+}
