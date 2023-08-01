@@ -1,7 +1,9 @@
 import ConcreteMemento from "../memento/ConcreteMemento";
 import Memento from "../memento/Memento";
+import Originator from "./Originator";
 
-export default class ConcreteOriginator {
+
+export default class ConcreteOriginator implements Originator {
 
     private state : string;
 
