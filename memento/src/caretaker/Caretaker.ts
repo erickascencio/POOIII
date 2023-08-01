@@ -1,4 +1,4 @@
-import Originator from "../Originator/Originator";
+import Originator from "../originator/Originator";
 import Memento from "../memento/Memento";
 
 export default class Caretaker {

@@ -1,4 +1,6 @@
-export default class ConcreteMemento {
+import Memento from "./Memento";
+
+export default class ConcreteMemento implements Memento {
     private state : string;
     private date : string;
 
