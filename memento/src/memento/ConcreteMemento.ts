@@ -13,13 +13,15 @@ export default class ConcreteMemento implements Memento {
         return this.state;
     }
 
+    public getDate(): string {
+        return this.date;
+    }
+
     public getName(): string {
         return `${this.date} / (${this.state.substr(0, 15)}...)`;
     }
 
-    public getDate(): string {
-        return this.date;
-    }
+   
 
   
 }
